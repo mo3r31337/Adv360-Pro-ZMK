@@ -80,11 +80,11 @@
 
         layer_Media {
             bindings = <
- &trans  &trans  &trans  &kp K_MUTE  &kp K_VOL_DN  &kp K_VOL_UP             &kp C_PWR                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans      &trans        &trans        &trans            &kp K_LOCK                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans      &trans        &trans        &trans                &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans      &trans        &trans        &trans                                &trans                  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans      &trans        &trans                              &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &kp C_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP              &kp C_SLEEP                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans      &trans             &trans           &trans            &kp C_AL_LOCK                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans      &trans             &trans           &trans             &kp C_AL_WWW  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans      &trans             &trans           &trans                                   &trans                  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans      &trans             &trans                                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
